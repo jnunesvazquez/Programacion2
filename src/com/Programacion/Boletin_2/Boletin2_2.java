@@ -7,7 +7,7 @@ public class Boletin2_2 {
         float area;
         area = lado * lado;
         System.out.println(" area = " + area);
-        
+
     }
 
 }

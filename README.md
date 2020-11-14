@@ -10,4 +10,10 @@
 
 [Boletin_6](https://github.com/jnunesvazquez/Programacion2/tree/master/src/com/Programacion/Boletin_6)
 
+[Boletin_7](https://github.com/jnunesvazquez/Programacion2/tree/master/src/com/Programacion/Boletin_7)
+
+[Boletin_8](https://github.com/jnunesvazquez/Programacion2/tree/master/src/com/Programacion/Boletin_8)
+
 [Extra_1](https://github.com/jnunesvazquez/Programacion2/tree/master/src/com/Programacion/Extra_1)
+
+[Extra_2](https://github.com/jnunesvazquez/Programacion2/tree/master/src/com/Programacion/Extra_2)
