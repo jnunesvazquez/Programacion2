@@ -1,9 +1,8 @@
 
-package com.Programacion.Boletin_6.pkg6;
+package com.Programacion.Boletin_6.pkg6_1;
 
 /**
  * Descripcion de la clase coche
- *
  * @author Joel Nunes
  * @version 06/11/2020
  */
@@ -11,16 +10,14 @@ public class Coche {
     private final int velocidade;
 
     /**
-     * Contructor coche
+     * Constructor
      */
-
     public Coche() {
         velocidade = 0;
     }
 
     /**
      * Metodo acelerar
-     *
      * @param valor la velocidad que acelera
      */
     public void acelerar(int valor) {
@@ -31,7 +28,6 @@ public class Coche {
 
     /**
      * Metodo frenar
-     *
      * @param menos la velocidad que reduce
      */
     public void frenar(int menos) {

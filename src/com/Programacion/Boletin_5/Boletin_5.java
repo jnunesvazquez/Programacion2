@@ -1,28 +1,33 @@
 
 package com.Programacion.Boletin_5;
 
-import java.util.Scanner;
-
+/**
+ * Consumo dun vehiculo
+ * @author Joel Nunes
+ * @version 1.8.0_261
+ */
 public class Boletin_5 {
 
+    /**
+     * Mostrar os diferentes consumos dun vehiculo
+     * @param args Metodo principal
+     */
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Consumo objConsumo1 = new Consumo();
-        Consumo objConsumo2 = new Consumo(2000,60,50,(float)1.57);
-        float kilometros = objConsumo2.kilometros;
-        System.out.println("Kilometros recorridos = "+kilometros);
-        float litrosConsumidos = objConsumo2.litros;
-        System.out.println("Litros consumidos = "+litrosConsumidos);
-        float precioGasolina = objConsumo2.pGas;
-        System.out.println("Precio de la gasolina = "+precioGasolina+ " € ");
-        float velocidadMedia = objConsumo2.vMed;
-        System.out.println("Velocidad media = "+velocidadMedia);
-        float tempo = objConsumo2.getTempo();
-        System.out.println("Tiempo empleado en llegar = "+tempo);
-        float consumoLitros = objConsumo2.consumoMedio();
-        System.out.println("Consumo medio de litros = "+consumoLitros);
-        float gastoEuros = objConsumo2.consumoEuros();
-        System.out.println("Gasto medio en euros = "+gastoEuros);
+        Consumo objetoConsumo = new Consumo(2000,60,50,(float)1.57);
+        float kilometros = objetoConsumo.kilometros;
+        System.out.println("Kilometros recorridos = " + kilometros);
+        float litrosConsumidos = objetoConsumo.litros;
+        System.out.println("Litros consumidos = " + litrosConsumidos);
+        float precioGasolina = objetoConsumo.pGas;
+        System.out.println("Precio de la gasolina = " + precioGasolina + " € ");
+        float velocidadMedia = objetoConsumo.vMed;
+        System.out.println("Velocidad media = " + velocidadMedia);
+        float tempo = objetoConsumo.getTempo();
+        System.out.println("Tiempo empleado en llegar = " + tempo);
+        float consumoMedioLitros = objetoConsumo.consumoMedioLitros();
+        System.out.println("Consumo medio de litros = " + consumoMedioLitros);
+        float gastoEuros = objetoConsumo.consumoEuros();
+        System.out.println("Gasto medio en euros = " + gastoEuros);
         
     }
     

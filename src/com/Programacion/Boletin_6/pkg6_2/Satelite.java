@@ -1,19 +1,37 @@
 package com.Programacion.Boletin_6.pkg6_2;
 
+/**
+ * Ejemplo: Satelite
+ */
 public class Satelite {
     private double meridiano;
     private double paralelo;
     private double distanciaTerra;
 
- public Satelite ( ) {
-     meridiano = paralelo = distanciaTerra = 0;
+    /**
+     * Constructor
+     */
+     public Satelite ( ) {
+         meridiano = paralelo = distanciaTerra = 0;
  }
-public Satelite(double m, double p, double d){
-     meridiano = m;
-     paralelo = p;
-     distanciaTerra = d ;
+
+    /**
+     * Constructor
+     * @param meridiano o meridiano do satelite
+     * @param paralelo o paralelo do satelite
+     * @param distaciaTerra a distacia a terra do satelite
+     */
+     public Satelite(double meridiano, double paralelo, double distaciaTerra){
+         this.meridiano = meridiano;
+         this.paralelo = paralelo;
+         this.distanciaTerra = distaciaTerra ;
 }
-public void verPosicion () {
-      System.out.println("o satelite atopase  no paralelo"+ paralelo + "meridiano"+ meridiano +"a unha distancia da terra " + distanciaTerra);
+
+    /**
+     * Metodo para ver a posicion do satelite
+     */
+    public void verPosicion () {
+      System.out.println(" O satelite atopase  no paralelo " + paralelo + "meridiano" + meridiano +
+              "a unha distancia da terra " + distanciaTerra);
 }
 }
