@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 /**
  * Cota no padel
  * @author Joel Nunes
- * @version 06/11/2020
+ * @version 1.8.0_261
  */
 public class Extra_2_1 {
 
