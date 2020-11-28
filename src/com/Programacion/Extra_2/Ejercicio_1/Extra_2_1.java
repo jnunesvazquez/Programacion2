@@ -1,5 +1,5 @@
 
-package com.Programacion.Extra_2.pkg2_1;
+package com.Programacion.Extra_2.Ejercicio_1;
 
 import javax.swing.JOptionPane;
 

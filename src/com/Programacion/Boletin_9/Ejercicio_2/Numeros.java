@@ -12,18 +12,15 @@ public class Numeros {
      * Metodo para separar los numeros por tipo
      */
     public void suma_e_producto(){
-        float suma;
-        float producto;
-        float numero1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un numero entre 10 y 90"));
-        float numero2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce otro numero entre 10 y 90"));
-        if (numero1 >= 10 && numero1 <= 90 && numero2 >= 10 && numero2 <= 90){
-            suma = numero1 + numero2;
-            producto = numero1 * numero2;
-            System.out.println("Suma = " + suma + "\nProducto = " + producto);
+        float numero;
+        float suma = 0;
+        float producto = 1;
+        for (numero = 10; numero <= 90; numero++){
+            suma = suma + numero;
+            producto = producto * numero;
         }
-        else {
-            System.out.println("Datos erroneos");
-        }
+        suma--;
+        System.out.println("Suma = " + suma + "\nProducto = " + producto);
     }
 }
 
